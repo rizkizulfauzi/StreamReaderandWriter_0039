@@ -18,4 +18,8 @@ int main()
         outfile << baris << endl;
     }
     outfile.close();
+    ifstream infile;
+    infile.open("contohFile.txt");
+    cout << endl << ">= Membuka dan membaca file" << endl;
 }
+
