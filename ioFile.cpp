@@ -3,14 +3,16 @@
 #include <string>
 using namespace std;
 
-int main(){
+int main()
+{
     string baris;
     ofstream outfile;
     outfile.open("contohFile.txt");
     cout << ">= Menulis file,\'q\' untuk keluar" << endl;
 
-    while (true){
-        cout <<"-";
-    
+    while (true)
+    {
+        cout << "-";
+        getline(cin, baris);
     }
 }
